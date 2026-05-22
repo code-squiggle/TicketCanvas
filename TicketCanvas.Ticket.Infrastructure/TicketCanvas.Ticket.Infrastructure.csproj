@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="9.1.2" />
+    <PackageReference Include="MassTransit.EntityFrameworkCore" Version="9.1.2" />
+    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="13.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketCanvas.Common.Application\TicketCanvas.Common.Application.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.Domain\TicketCanvas.Ticket.Domain.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.Application\TicketCanvas.Ticket.Application.csproj" />
+  </ItemGroup>
+
+</Project>

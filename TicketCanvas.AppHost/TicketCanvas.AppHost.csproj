@@ -1,0 +1,28 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.2">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>97b5de1c-7938-4c86-a04f-912f944a3f48</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketCanvas.Show.Api\TicketCanvas.Show.Api.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Payment.Api\TicketCanvas.Payment.Api.csproj" />
+    <ProjectReference Include="..\TicketCanvas.User.Api\TicketCanvas.User.Api.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.Api\TicketCanvas.Ticket.Api.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Show.MigrationService\TicketCanvas.Show.MigrationService.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Payment.MigrationService\TicketCanvas.Payment.MigrationService.csproj" />
+    <ProjectReference Include="..\TicketCanvas.User.MigrationService\TicketCanvas.User.MigrationService.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.MigrationService\TicketCanvas.Ticket.MigrationService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.5.2" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.5.2" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="13.5.2" />
+  </ItemGroup>
+
+</Project>
