@@ -1,0 +1,6 @@
+@TicketCanvas.Ticket.Api_HostAddress = http://localhost:5052
+
+GET {{TicketCanvas.Ticket.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>da4bd86a-61f0-49fd-a471-86c6e8d4ae1f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi" Version="2.10.0" />
+    <PackageReference Include="AutoMapper" Version="16.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketCanvas.Common.Http\TicketCanvas.Common.Http.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Common.Infrastructure\TicketCanvas.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\TicketCanvas.ServiceDefaults\TicketCanvas.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\TicketCanvas.User.Data\TicketCanvas.User.Data.csproj" />
+  </ItemGroup>
+
+</Project>

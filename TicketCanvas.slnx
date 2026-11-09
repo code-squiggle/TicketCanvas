@@ -1,0 +1,23 @@
+<Solution>
+  <Project Path="TicketCanvas.AppHost/TicketCanvas.AppHost.csproj" />
+  <Project Path="TicketCanvas.Common.Application/TicketCanvas.Common.Application.csproj" />
+  <Project Path="TicketCanvas.Common.Domain/TicketCanvas.Common.Domain.csproj" />
+  <Project Path="TicketCanvas.Common.Http/TicketCanvas.Common.Http.csproj" />
+  <Project Path="TicketCanvas.Common.Infrastructure/TicketCanvas.Common.Infrastructure.csproj" />
+  <Project Path="TicketCanvas.Payment.Api/TicketCanvas.Payment.Api.csproj" />
+  <Project Path="TicketCanvas.Payment.Data/TicketCanvas.Payment.Data.csproj" />
+  <Project Path="TicketCanvas.Payment.MigrationService/TicketCanvas.Payment.MigrationService.csproj" />
+  <Project Path="TicketCanvas.ServiceDefaults/TicketCanvas.ServiceDefaults.csproj" />
+  <Project Path="TicketCanvas.Show.Api/TicketCanvas.Show.Api.csproj" />
+  <Project Path="TicketCanvas.Show.Data/TicketCanvas.Show.Data.csproj" />
+  <Project Path="TicketCanvas.Show.MigrationService/TicketCanvas.Show.MigrationService.csproj" />
+  <Project Path="TicketCanvas.Tests/TicketCanvas.Tests.csproj" />
+  <Project Path="TicketCanvas.Ticket.Api/TicketCanvas.Ticket.Api.csproj" />
+  <Project Path="TicketCanvas.Ticket.Application/TicketCanvas.Ticket.Application.csproj" />
+  <Project Path="TicketCanvas.Ticket.Domain/TicketCanvas.Ticket.Domain.csproj" />
+  <Project Path="TicketCanvas.Ticket.Infrastructure/TicketCanvas.Ticket.Infrastructure.csproj" />
+  <Project Path="TicketCanvas.Ticket.MigrationService/TicketCanvas.Ticket.MigrationService.csproj" />
+  <Project Path="TicketCanvas.User.Api/TicketCanvas.User.Api.csproj" />
+  <Project Path="TicketCanvas.User.Data/TicketCanvas.User.Data.csproj" />
+  <Project Path="TicketCanvas.User.MigrationService/TicketCanvas.User.MigrationService.csproj" />
+</Solution>

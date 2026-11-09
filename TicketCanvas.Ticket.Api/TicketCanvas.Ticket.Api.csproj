@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.10.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="MediatR" Version="14.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketCanvas.Common.Http\TicketCanvas.Common.Http.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Common.Infrastructure\TicketCanvas.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.Application\TicketCanvas.Ticket.Application.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.Domain\TicketCanvas.Ticket.Domain.csproj" />
+    <ProjectReference Include="..\TicketCanvas.Ticket.Infrastructure\TicketCanvas.Ticket.Infrastructure.csproj" />
+    <ProjectReference Include="..\TicketCanvas.ServiceDefaults\TicketCanvas.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>
